@@ -279,7 +279,7 @@ namespace ConsoleApp3.Models
            /// Default:
            /// Nullable:False
            /// </summary>           
-           [SugarColumn(IsPrimaryKey=true)]
+           [SugarColumn(IsPrimaryKey = true, IsOnlyIgnoreInsert = true, IsOnlyIgnoreUpdate = true)]
            public string ID {get;set;}
 
     }
